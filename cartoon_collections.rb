@@ -9,8 +9,14 @@ while i < array.length
  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  summon = []
+  i = 0
+  while i < array.length
+    summon << array[i].capitalize + "!"
+    i += 1
+  end
+  summon
 end
 
 def long_planeteer_calls# code an argument here
